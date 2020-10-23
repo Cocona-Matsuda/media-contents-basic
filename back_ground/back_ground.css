@@ -3,20 +3,16 @@ body{
     margin: 0%;
     padding: 0%;
     width: 100%;
-    height: 100%;
+    height: 110%;
+    bottom: 0;
 
-    background-image: linear-gradient(#212557, #7370a1);
+    background-image: linear-gradient(#212557, #67468d);
     background-repeat: no-repeat;
     background-size: contain;
-}
-.wrapper{
-    padding: 5%;
-    color: #cdc9c3;
 }
 .cat{
     position: relative;
     padding-left: 70%;
-    padding-top: ;
 }
 #cat{
     position: absolute;
@@ -26,7 +22,30 @@ body{
     animation: teal linear 1.1s infinite;
     transform: rotate(0deg);
 }
-
+.wrapper{
+    padding: 5%;
+    padding-top: 100px;
+    color: #cdc9c3;
+}
+h1 {
+    padding: 10px;
+    color: #cdc9c3;
+    border-bottom: solid 5px #180731;
+}
+.content_1{
+    position: relative;
+}
+.text_left{
+    position: absolute;
+    padding-right: 30%;
+}
+.table{
+    position: absolute;
+    padding-left: 70%;
+}
+.content_2{
+    padding-top: 400px;
+}
 @keyframes teal {
     0% {transform: rotate(0deg);}
     25% {transform: rotate(10deg);}
