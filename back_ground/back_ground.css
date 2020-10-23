@@ -1,25 +1,27 @@
 html,
 body{
-    margin: 0;
+    margin: 0%;
     padding: 0%;
     width: 100%;
     height: 100%;
 
-    background-image: linear-gradient(#020750, #45419c);
+    background-image: linear-gradient(#212557, #7370a1);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .wrapper{
     padding: 5%;
     color: #cdc9c3;
 }
-#cat{
-    position: relative;
-}
 .cat{
+    position: relative;
+    padding-left: 70%;
+    padding-top: ;
+}
+#cat{
     position: absolute;
 }
-.teal{
+#teal{
     position: absolute;
     animation: teal linear 1.1s infinite;
     transform: rotate(0deg);
