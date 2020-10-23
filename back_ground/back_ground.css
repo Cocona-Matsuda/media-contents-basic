@@ -5,18 +5,30 @@ body{
     width: 100%;
     height: 100%;
 
-    background-image: linear-gradient(#212557, #7370a1);
+    background-image: linear-gradient(#212557, #aa84a7);
     background-repeat: no-repeat;
     background-size: contain;
+}
+h1 {
+  padding: 0.5em;
+  color: #cdc9c3;
+  border-bottom: solid 5px #180731;
+}
+.centens{
+    position: absolute;
+}
+.table{
+    position: absolute;
+    padding-left: 60%;
 }
 .wrapper{
     padding: 5%;
     color: #cdc9c3;
+    position: relative;
 }
 .cat{
     position: relative;
     padding-left: 70%;
-    padding-top: ;
 }
 #cat{
     position: absolute;
